@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms1</title>
+</head>
+<body>
+    <form action="https://www.facebook.com" method="get">
+        <h1>Log in page</h1>
+        <h2>Please enter your email and password</h2>
+        <label for = "Username">Username: </label>
+        <input type= "text" id="Username" minlength="3"  placeholder = "Name here" required><br>
+        <label for = "Password">Password: </label>
+        <input type = "password" id="Password" placeholder="pwd" pattern="(?=.*\d)(?=.*\[a-z])(?=.*\[A-Z]){8, }" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+        <label for = "Useremail">Emailid: </label>
+        <input type = "email" id="Emailid" value = "abc@gmail.com" placeholder="ydevineni@gmail.com" minlength="3"  required><br>
+        <label for = "tel">telno: </label>
+        <input type = "tel" id="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"   required><br>
+        <label for = "color">Fav Color: </label>
+        <input type="color" id="color" placeholder="Fav color"><br>
+        <label for = "Birthdate">Birthdate: </label>
+        <input type="datetime" id="Birthdate" placeholder="MM-DD-YYYY" ><br>
+    
+        <input type = "Reset"><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>

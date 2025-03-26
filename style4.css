@@ -1,0 +1,22 @@
+body{
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/abstract-background_DKNZ1YUOBT.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(210, 43, 104);
+    font-size: 20px;
+}
+div{
+    background-color: bisque;
+    border-width: 20px;
+    border-style: groove;
+    border-color: aqua;
+}
+p{
+    color:indianred
+}
+#p1{
+    color: blueviolet;
+    font-size: 2rem;
+}
